@@ -1,0 +1,19 @@
+{
+  "name": "lexer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lexer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubberydev/Lexer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubberydev/Lexer/issues"
+  },
+  "homepage": "https://github.com/rubberydev/Lexer#readme"
+}
