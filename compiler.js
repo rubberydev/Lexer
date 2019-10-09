@@ -14,10 +14,23 @@
  */
 //We handled the onclick action in order to get of input of user
 function ProcessLexer() {
-    let parameter = document.getElementById("inputValue").value;
-    let resultTokenizer = lexer(parameter);
+    //let parameter = document.getElementById("inputValue").value;
+    let parameter = "{add 123}";
+    const resultTokenizer = lexer(parameter);
     console.log(resultTokenizer);
+
+    //We initialize the parser  :)
+    let antlr4 = require('antlr4/index');
+
+    processParser(antlr4, resultTokenizer)
+
 }
+
+function processParser(antlr4Object, tokenizerResult) {
+    console.warn(tokenizerResult);
+    console.log(antlr4Object);
+}
+
 /**
  * 
  * @param {sentence of Language} inputValue 
@@ -112,3 +125,5 @@ function lexer(inputValue) {
     }
     return tokens; //Last but no least, we return the tokens like an Array :)
 }
+
+ProcessLexer();
