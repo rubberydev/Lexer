@@ -1,9 +1,9 @@
-##In order to install the project, you should install Node.js
+# In order to install the project, you should install Node.js
 
-you must execute the below commands:
+You must execute the below commands:
 
 npm install
 
-after, you can execute the program in a shell:
+After, you can execute the program in a shell:
 
 node compiler.js
